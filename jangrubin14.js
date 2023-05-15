@@ -6,8 +6,11 @@ function exampleOne(a) {
       throw new Error('정수를 입력해야 합니다');
     }
   } else {
+        // ! 문자열 a를 받았을 때 에러 출력
+        // console.log(a)
     throw new Error('정수를 입력해야 합니다')
+
   }
   return a;
 }
-// exampleOne(1.2)
+exampleOne("1")
